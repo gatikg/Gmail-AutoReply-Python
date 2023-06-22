@@ -52,13 +52,13 @@ Here's the code documentation for the important functions in the app.py file:
 # connect_to_gmail_api(gmail_id)
 This function establishes a connection to the Gmail API using the provided Gmail ID and returns the Gmail service object.
 
-# gmail_id (str): The Gmail ID (email address) of the user.
-# start_auto_responder(vacation_message, interval_min, interval_max)
+gmail_id (str): The Gmail ID (email address) of the user.
+start_auto_responder(vacation_message, interval_min, interval_max)
 This function starts the auto-responder, which continuously fetches unread emails and sends auto-replies.
 
-# vacation_message (str): The vacation message to be included in the auto-reply.
-# interval_min (int): The minimum time interval (in seconds) between processing emails.
-# interval_max (int): The maximum time interval (in seconds) between processing emails.
+vacation_message (str): The vacation message to be included in the auto-reply.
+interval_min (int): The minimum time interval (in seconds) between processing emails.
+interval_max (int): The maximum time interval (in seconds) between processing emails.
 
 # fetch_unread_emails()
 This function fetches unread emails from the user's inbox.
