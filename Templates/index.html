@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vacation Auto Responder</title>
+</head>
+
+<body>
+    <h1>Vacation Auto Responder</h1>
+    <form method="POST" action="/">
+        <label for="gmail_id">Gmail ID:</label>
+        <input type="text" id="gmail_id" name="gmail_id"><br><br>
+
+        <label for="vacation_message">Vacation Message:</label><br>
+        <textarea id="vacation_message" name="vacation_message" rows="5" cols="40"></textarea><br><br>
+
+        <label for="interval_min">Minimum Interval (secs):</label>
+        <input type="number" id="interval_min" name="interval_min"><br><br>
+
+        <label for="interval_max">Maximum Interval (secs):</label>
+        <input type="number" id="interval_max" name="interval_max"><br><br>
+
+        <input type="submit" value="Activate Auto Responder">
+    </form>
+</body>
+
+</html>
