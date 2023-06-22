@@ -57,7 +57,7 @@ def connect_to_gmail_api(gmail_id):
     try:
         service = build("gmail", "v1", credentials=creds)
         results = service.users().labels().list(userId="me").execute()
-        labels = results.get("labels", [])
+        #       labels = results.get("labels", [])
         return service
 
     except HttpError as error:
